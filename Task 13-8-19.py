@@ -1,20 +1,3 @@
-# num = int(input('Количество билетов: '))
-# sum = 0
-# for i in range(0, num):
-#     age = int(input('Введите возраст: '))
-#
-#     if age < 18:
-#         continue
-#     elif age >= 18 and age <= 25:
-#         sum += 990
-#     elif age > 25:
-#         sum += 1390
-#
-# if num > 3:
-#     sum = sum * 0.9
-#
-# print("Сумма к оплате: ", sum, "рублей")
-#
 tickets = int(input('Введите количество билетов: '))
 for i in range(0, tickets):
     age = input('Введите возраст: ')
