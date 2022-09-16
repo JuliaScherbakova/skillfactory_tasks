@@ -15,4 +15,4 @@ for i in age:
 if tickets > 3:
     print("Сумма к оплате с учетом скидки: ", sum(price) - ((sum(price) / 100) * 10), "рублей")
 else:
-#     print("Сумма к оплате: ", sum(price), "рублей")
+print("Сумма к оплате: ", sum(price), "рублей")
