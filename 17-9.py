@@ -1,4 +1,3 @@
-
 array = list(map(int, input('введите числа через пробел: ').split()))
 
 print(array)
@@ -20,6 +19,7 @@ while element:
     else:
         break
 
+        
 def binary_search(array, element, left, right):
     if left > right:
         return False
@@ -32,5 +32,5 @@ def binary_search(array, element, left, right):
         return binary_search(array, element, middle + 1, right)
 
 a = (binary_search(array, element, 0, len(array)-1))
-print(a)
-print(a-1, a+1)
+# print(a-1, a) #работает, если число в списке
+# print(a) #работает, если числа нет в списке
